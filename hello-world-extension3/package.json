@@ -1,0 +1,30 @@
+{
+  "name": "hello-world-extension3",
+  "keywords": [
+    "theia-extension"
+  ],
+  "license": "Apache-2.0",
+  "version": "0.0.0",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@theia/core": "latest"
+  },
+  "devDependencies": {
+    "rimraf": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/hello-world-frontend-module"
+    }
+  ]
+}
