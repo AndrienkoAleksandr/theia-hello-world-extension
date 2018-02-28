@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "electron-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "@theia/core": "latest",
     "@theia/editor": "latest",
@@ -16,7 +16,7 @@
     "@theia/terminal": "latest",
     "@theia/typescript": "latest",
     "@theia/workspace": "latest",
-    "hello-world-extension3": "^0.0.2"
+    "hello-world-extension3": "^0.0.3"
   },
   "devDependencies": {
     "@theia/cli": "latest"
